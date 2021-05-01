@@ -9,28 +9,40 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Pet Owl Creator</title>
 </head>
 
 <body>
     <header>
         <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
+            <img src="assets/Short-eared-owl.jpeg"/>
         </div>
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png" />
+            <img class="main-logo" src="assets/Great-Horned-Owl.jpeg" />
             <h2>
-                Create a Mystical Character!
+                Create The Perfect Pet Owl!
             </h2>
-
-            <input type="number"/>
-            <button>Submit</button>
-
-            <input type="number"/>
-            <button>Submit</button>
-
+                <div id="name">
+                    <input type="text" value="Name"/>
+                </div>
+                <div id="mood">
+                    <input type="text" value="Mood/Disposition"/>
+                </div>
+                <div id="type">
+                    <input type="text" value="Type/Species"/>
+                </div>
+                <div id="talent">
+                    <input type="text" value="Talent"/>
+                </div>
+                <div>
+                    <button type="submit" id="create">Create My Owl!</button>
+                </div>
+                <span id="pet-image">
+                    <img src="http://placebear.com/300/300">
+                    <h3 id="new-pet-name">Owl Name</h3>
+                </span>
         </section>
     </main>
     <footer>
